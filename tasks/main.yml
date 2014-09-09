@@ -1,0 +1,9 @@
+---
+ - name: Add the Ruby PPA
+   apt_repository: repo='ppa:brightbox/ruby-ng' update_cache=yes
+
+ - name: Install Ruby from PPA
+   apt: pkg=ruby2.1 state=latest
+
+ - name: Install ruby2.1-dev
+   apt: pkg=ruby2.1-dev state=latest
