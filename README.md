@@ -8,7 +8,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: webbylab.ruby
+         - role: WebbyLab.ruby
 
 License
 -------
